@@ -1,6 +1,7 @@
 #include "ICloudCommunicator.h"
-class IOTCloudCommunicator:public ICloundCOmmunicator{
 
-public:
-    void pushMessage(string message);
+class IOTCloudCommunicator:public ICloudCommunicator
+{
+    public:
+        int pushMessage(string& message);
 };
