@@ -21,7 +21,7 @@ add_executable(
   BNFSpeedSensor.cpp
   ConsoleLogger.cpp
   IOTCloudCommunicator.cpp
-  SpeedMonitor.cppx
+  SpeedMonitor.cpp
   main.cpp
 )
 target_link_libraries(
